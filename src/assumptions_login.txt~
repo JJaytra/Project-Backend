@@ -1,0 +1,13 @@
+def auth_login(email, password):
+    return user_id
+    
+1. We should assume that the account has been registered already
+    -> if not then check if there is an account with that email address
+    
+2. Check if the email adaress is valid:
+    ->  '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}$'
+    
+3. There should be only one account with the same email address = one user
+
+4. Check that the password matches the given email address
+
